@@ -2,6 +2,8 @@
 
 面向个人 Windows 电脑的本地消息托管系统，包含 Web 控制后台、消息管线、多模型网关、联系人记忆和可控发送策略。
 
+*A local Windows message-assistant hub for WeChat and QQ, with a web console, multi-model routing, contact memory, and deterministic delivery controls.*
+
 ## 版本与进度
 
 - 当前版本：**1.0.0**
