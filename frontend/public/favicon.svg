@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">Neko AI</title>
+  <rect x="18" y="18" width="476" height="476" rx="116" fill="#103d2c"/>
+  <rect x="27" y="27" width="458" height="458" rx="107" fill="none" stroke="#75c7a1" stroke-width="12"/>
+  <path d="M112 170 144 76l80 88M288 164l80-88 32 94" fill="#f4f0e6" stroke="#f4f0e6" stroke-linecap="round" stroke-linejoin="round" stroke-width="22"/>
+  <path d="M145 364V184l222 180V184" fill="none" stroke="#f4f0e6" stroke-linecap="round" stroke-linejoin="round" stroke-width="58"/>
+  <circle cx="408" cy="408" r="30" fill="#75c7a1"/>
+</svg>

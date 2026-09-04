@@ -1,0 +1,69 @@
+from enum import StrEnum
+
+
+class GlobalMode(StrEnum):
+    AUTO = "AUTO"
+    SILENT = "SILENT"
+    READ_ONLY = "READ_ONLY"
+    STOPPED = "STOPPED"
+
+
+class ReleaseGate(StrEnum):
+    SIMULATION = "SIMULATION"
+    SHADOW = "SHADOW"
+    LIVE = "LIVE"
+
+
+class Importance(StrEnum):
+    NORMAL = "NORMAL"
+    IMPORTANT = "IMPORTANT"
+    MANUAL_ONLY = "MANUAL_ONLY"
+
+
+class ConversationMode(StrEnum):
+    AUTO_READY = "AUTO_READY"
+    HUMAN = "HUMAN"
+    CONTACT_COOLDOWN = "CONTACT_COOLDOWN"
+
+
+class MessageDirection(StrEnum):
+    INBOUND = "INBOUND"
+    OUTBOUND = "OUTBOUND"
+
+
+class MessageAuthor(StrEnum):
+    CONTACT = "CONTACT"
+    AI = "AI"
+    HUMAN = "HUMAN"
+    SYSTEM = "SYSTEM"
+
+
+class MessageStatus(StrEnum):
+    RECEIVED = "RECEIVED"
+    PROCESSING = "PROCESSING"
+    GENERATED = "GENERATED"
+    QUEUED = "QUEUED"
+    SENT = "SENT"
+    BLOCKED = "BLOCKED"
+    CANCELLED = "CANCELLED"
+    FAILED = "FAILED"
+    SHADOWED = "SHADOWED"
+
+
+class AuditEvent(StrEnum):
+    MESSAGE_RECEIVED = "MESSAGE_RECEIVED"
+    POLICY_PASS = "POLICY_PASS"
+    POLICY_DENY = "POLICY_DENY"
+    LLM_REQUEST = "LLM_REQUEST"
+    LLM_RESPONSE = "LLM_RESPONSE"
+    SAFETY_PASS = "SAFETY_PASS"
+    SAFETY_DENY = "SAFETY_DENY"
+    MESSAGE_QUEUED = "MESSAGE_QUEUED"
+    MESSAGE_SENT = "MESSAGE_SENT"
+    MESSAGE_SHADOWED = "MESSAGE_SHADOWED"
+    DUPLICATE_IGNORED = "DUPLICATE_IGNORED"
+    MODE_CHANGED = "MODE_CHANGED"
+    HUMAN_TAKEOVER = "HUMAN_TAKEOVER"
+    ERROR = "ERROR"
+    INCIDENT = "INCIDENT"
+

@@ -1,0 +1,20 @@
+[project]
+name = "neko-ai-core"
+version = "1.0.0"
+description = "Safety-first local AI message hosting core for QQ and WeChat connectors"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+addopts = "-q --disable-warnings"
+
+[tool.coverage.run]
+source = ["app"]
+branch = true
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true
+

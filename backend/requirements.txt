@@ -1,0 +1,17 @@
+fastapi==0.116.1
+uvicorn[standard]==0.35.0
+pydantic-settings==2.10.1
+SQLAlchemy==2.0.43
+alembic==1.16.5
+pymysql==1.1.2
+cryptography==45.0.7
+httpx==0.28.1
+opencc-python-reimplemented==0.1.7
+python-multipart==0.0.20
+pypdf==6.16.1
+reportlab==5.0.1
+faster-whisper==1.2.1
+sherpa-onnx==1.13.2
+pytest==8.4.1
+pytest-asyncio==1.1.0
+coverage==7.10.6

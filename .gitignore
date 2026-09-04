@@ -1,0 +1,19 @@
+.env
+.venv/
+.pnpm-store/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+# Runtime databases, encrypted credentials, received media, exports, model
+# caches and PID files are workstation state rather than source code.
+data/
+backend/data/
+logs/
+*.log
+backups/
+frontend/node_modules/
+frontend/dist/
+frontend/.next/
+.DS_Store
